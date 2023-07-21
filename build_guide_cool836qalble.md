@@ -23,7 +23,6 @@ Solder the diodes to the back of PCB.
 <br>
 PCBの裏面にダイオードのハンダ付けをします。
 <br>
-![](img/img00002.jpg)
 
 There are lead type and SMD diodes.
 <br>
