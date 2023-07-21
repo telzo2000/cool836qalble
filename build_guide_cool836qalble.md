@@ -24,6 +24,7 @@ Solder the diodes to the back of PCB.
 PCBの裏面にダイオードのハンダ付けをします。
 <br>
 ![](img/img00002.jpg)
+
 There are lead type and SMD diodes.
 <br>
 ダイオードはリードタイプか、SMDがあります。
@@ -120,6 +121,7 @@ Solder the pin sockets to the PCB as shown in the image below.
 下の画像のように、ピンソケットをPCBにはんだ付けしてください。
 <br>
 ![](img/img00019.jpg)
+
 Place the battery board and solder it. Leave some space between it and the PCB, referring to the image below.
 <br>
 電池基板を載せて、はんだ付けをしてください。下の画像を参考にして、PCBとの間をやや空けておいてください。
@@ -163,6 +165,7 @@ Access [here](https://sekigon-gonnoc.github.io/BLE-Micro-Pro-WebConfigurator/#/h
 <br>
 [ここ](https://sekigon-gonnoc.github.io/BLE-Micro-Pro-WebConfigurator/#/home)にアクセスします。
 <br>
+
 ![](img/img00003.png)
 ![](img/img00004.png)
 ![](img/img00005.png)
@@ -238,6 +241,7 @@ Congratulations. The second stage is over.
 Select Remap from here.
 <br>
 ここからRemapを選択してください。
+<br>
 ![](img/img00013.png)
 
 ![](img/img00014.png)
