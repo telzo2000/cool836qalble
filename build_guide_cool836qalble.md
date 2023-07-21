@@ -266,25 +266,31 @@ Fix the magnets to the five dents inside the case with an adhesive or the like. 
 ケースの内側にある５つの凹みに磁石を接着剤などで固定します。トップケースに５箇所、ボトムケースに５箇所の合計10箇所です。
 極性に注意してください。トップケースとボトムケースが磁力で着くようにしてください。
 <br>
-![](img/img00019.jpg)
+![](img/img00027.jpg)
 
 As shown in the image below, attach rubber O-rings to the four protrusions on the bottom case. This makes it a gasket mount. You can do without the O-ring, but the PCB may move up and down inside the case.
 <br>
 下の画像のように、ボトムケースに4箇所の凸部にゴムのO-ringを装着します。これによりガスケットマウントとなります。O-ringはなくても大丈夫ですが、ケース内で、PCBが上下に動く可能性があります。
 <br>
-![](img/img00018.jpg)
+![](img/img00028.jpg)
 
 The O-ring in the image is [this product](https://www.amazon.co.jp/gp/product/B07G4SM5SM/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1).
 <br>
 画像のO-ringは[この商品](https://www.amazon.co.jp/gp/product/B07G4SM5SM/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)です。
 <br>
+Pay attention to the orientation of the Switch Parts and attach them to the bottom case.
+<br>
+Switch Partsの向きに注意して、ボトムケースに取り付けてください。
+<br>
+![](img/img00029.jpg)
 <br>
 Place the hole in the switch plate on the O-ring. And it is completed by covering the top case.
 <br>
-スイッチプレートの穴をO-ringに載せます。そして、トップケースを被せて完成です。
+スイッチプレートの穴をO-ringに載せます。このとき、水平スライドスイッチのつまみがSwitch Pasrtsの窪みに入るようにしてください。そして、トップケースを被せて完成です。
 <br>
-![](img/img00017.jpg)
-![](img/img00016.jpg)
+![](img/img00030.jpg)
+![](img/img00031.jpg)
+![](img/img00032.jpg)
 
 Welcome to the world of 36 keys.
 <br>
