@@ -81,20 +81,78 @@ Solder the switch sockets on the back side.
 
 <br><br>
 
-### 3　Soldering RP-2040Zero  
+### 3 Mounting the Ble Micro Pro
 
-The side on which the RP-2040Zero components are mounted is the front side, and the opposite side is the back side.
+Conthrough specifications are recommended.
 <br>
-RP-2040Zeroの部品実装されている面を表面とし、反対側を裏面とします。
+コンスルーの仕様を推奨します。
 <br>
-Place the back side of the PCB and the back side of the RP-2040Zero facing each other and solder the respective terminals.
 <br>
-PCBの裏面とRP-2040Zeroの裏面が向かい合うようにして置き、それぞれの端子をハンダ付けします。
+A 12-pin or 13-pin connector is required. Even with 12 pins, there is no problem in use by inserting it closer to the USB-C terminal side as shown in the image.
 <br>
+コンスルーは12ピンまたは13ピンが必要です。12ピンでも画像のようにUSB-C端子側に寄せて差し込むことで、使用上、問題ありません。
+<br>
+![](img/img00015.jpg)
+![](img/img00016.jpg)
+
+Please take a look at the image below and pay attention to the orientation of the Ble Micro Pro.
+<br>
+下の画像を見て、Ble Micro Proの向きに気を付けて装着してください。
+<br>
+![](img/img00017.jpg)
+![](img/img00018.jpg)
+
+
+### 4 Soldering the battery board
+
+Assemble the battery board according to the supplier's instructions.
+<br>
+購入先の説明に沿って、電池基板を組み立ててください。
+<br>
+<br>
+Prepare two pin sockets with one pin.
+<br>
+ピンソケットを１ピン分にしたものを２つ用意してください。
+<br>
+<br>
+Solder the pin sockets to the PCB as shown in the image below.
+<br>
+下の画像のように、ピンソケットをPCBにはんだ付けしてください。
+<br>
+![](img/img00019.jpg)
+Place the battery board and solder it. Leave some space between it and the PCB, referring to the image below.
+<br>
+電池基板を載せて、はんだ付けをしてください。下の画像を参考にして、PCBとの間をやや空けておいてください。
+<br>
+
+![](img/img00021.jpg)
+
+![](img/img00022.jpg)
+
+![](img/img00023.jpg)
+
+<br>
+Keep the switch on the battery board ON. It's fragile, so be careful.
+<br>
+電池基板のスイッチをONにしておいてください。壊れやすいので、注意が必要です。
+<br>
+<br>
+
+### 5 Soldering the power switch
+
+Solder the horizontal slide switch as shown in the image below.
+<br>
+下の画像のように、水平スライドスイッチをはんだ付けしてください。
+<br>
+![](img/img00024.jpg)
+
+![](img/img00025.jpg)
+
+![](img/img00026.jpg)
 
 <br>
 
-### 4 Instorlling QMK＿Firmware on Ble Micro pro
+### 6 Instorlling QMK＿Firmware on Ble Micro pro
 
 Connect Ble Micro pro and PC with cable.
 <br>
@@ -158,6 +216,39 @@ Click on QMK Confiurator for Ble Micro Pro.
 <br>
 次にQMK Confiurator for Ble Micro Proの方をクリックしてください。
 <br>
+![](img/img00011.png)
+You will be asked to connect, so do the same as before.
+<br>
+接続要求がきますので、前と同じようにしてください。
+<br>
+![](img/img00012.png)
+
+config.json is requested. Download the config.json [here](https://github.com/telzo2000/cool836qalble/tree/main/firmware/cool836qalble) and use it.
+<br>
+config.jsonが要求されます。[ここ](https://github.com/telzo2000/cool836qalble/tree/main/firmware/cool836qalble)にあるconfig.jsonをダウンロードして、使用してください。
+<br>
+<br>
+Congratulations. The second stage is over.
+<br>
+おめでとうざいます。第二段階が終わりました。
+<br>
+
+![](img/img00010.png)
+
+Select Remap from here.
+<br>
+ここからRemapを選択してください。
+![](img/img00013.png)
+
+![](img/img00014.png)
+Edit your favorite keymap.
+<br>
+自分好みのキーマップを編集してください。
+<br>
+<br>
+congratulations. The third stage is finished. Firmware is complete.
+<br>
+おめでとうございます。第三段階が終了しました。ファームウェアが完成です。
 
 
 ### Build 2(case)
