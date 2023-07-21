@@ -6,7 +6,7 @@
 
 ###  QMK_FIRMWARE
 
-[Here](https://github.com/telzo2000/cool836qal/tree/main/firmware)
+[Here](https://github.com/telzo2000/cool836qalble/tree/main/firmware/cool836qalble)
 
 <br>
 
@@ -38,8 +38,6 @@ Use a lead bender to bend the legs of the diode.
 <br>
 リードベンダーを使い、ダイオードの足を曲げます。
 <br>
-![](img/img00003.jpg)
-![](img/img00004.jpg)
 
 Insert the diode into the board.
 <br>
@@ -59,14 +57,12 @@ Secure the diode with masking tape, then face up.
 Solder the protruding legs.
 <br>
 はみ出ている足部分に、ハンダ付けをします。
-![](img/img00005.jpg)
 <br>
 After soldering, use nippers to cut off the protruding legs.
 <br>
 はんだ付けが終わったら、はみ出ている足をニッパーで切り取ってください。
 <br>
-![](img/img00006.jpg)
-![](img/img00007.jpg)
+
 
 [８倍速　Diodeハンダ付け動画](https://youtu.be/Yaodh2-XxV4)
 
@@ -80,9 +76,6 @@ Solder the switch sockets on the back side.
 <br>
 裏面にスイッチソケットのハンダ付けをします。
 <br>
-![](img/img00008.jpg)
-![](img/img00009.jpg)
-![](img/img00010.jpg)
 
 [８倍速　Switch socketハンダ付け動画](https://youtu.be/E__mHvmIXQo)
 
@@ -98,39 +91,74 @@ Place the back side of the PCB and the back side of the RP-2040Zero facing each 
 <br>
 PCBの裏面とRP-2040Zeroの裏面が向かい合うようにして置き、それぞれの端子をハンダ付けします。
 <br>
-![](img/img00013.jpg)
-![](img/img00014.jpg)
-![](img/img00015.jpg)
+
 <br>
 
-### 4 Instorlling QMK＿Firmware
+### 4 Instorlling QMK＿Firmware on Ble Micro pro
 
-Install QMK_Firmware from your PC to RP-2040Zero.
+Connect Ble Micro pro and PC with cable.
 <br>
-QMK_FirmwareをPCからRP-2040Zeroにインストールしてください。
+Ble Micro proとPCをケーブルで繋ぎます。
 <br>
 <br>
-① Download https://github.com/telzo2000/cool836qal/blob/main/firmware/cool836qal_via.uf2 to your PC.
+Access [here](https://sekigon-gonnoc.github.io/BLE-Micro-Pro-WebConfigurator/#/home).
 <br>
-①https://github.com/telzo2000/cool836qal/blob/main/firmware/cool836qal_via.uf2 をPCにダウンロードしておく。
+[ここ](https://sekigon-gonnoc.github.io/BLE-Micro-Pro-WebConfigurator/#/home)にアクセスします。
+<br>
+![](img/img00003.png)
+![](img/img00004.png)
+![](img/img00005.png)
+![](img/img00006.png)
+Click NEXT at the bottom.
+<br>
+下段のNEXTをクリックします。
+<br>
+You will be asked for the bootloader version, but if you choose the latest version, you should be fine.
+<br>
+bootloaderのバージョンを聞かれますが、最新版で選んでおけば、大丈夫と思います。
+<br>
+<br>
+Click Update.
+<br>
+Updateをクリックします。
+<br>
+<br>
+It will ask for a serial port connection, so choose the one with the connected cable.
+<br>
+シリアルポートの接続を要求しますので、繋がっているケーブルのものを選んでください。
+<br>
+You will be asked the same question again, but don't worry, just repeat it again. One of these days, you can update. After that, click Next.
+<br>
+同じようなことをもう一度尋ねられますが、気にせず、もう一回繰り返してください。そのうち、Updateができます。そのあとは、Nextをクリックしてください。
+<br>
 
-<br><br>
-② Connect the PC and RP-2040Zero with a USB cable.
-<br>
-②PCとRP-2040ZeroをUSBケーブルで繋ぐ。
-<br><br>
-③Press the reset button while pressing the boost button on the RP-2040Zero.
-<br>
-③RP-2040Zeroのboostボタン押しながら、resetボタンを押す。
-<br><br>
-④Since there is a folder of RP-2040Zero on the PC screen, drag and drop the downloaded cool836qal.uf2 there.
-<br>
-④PC画面にはRP-2040Zeroのフォルダがあるので、そこに、ダウンロードしたcool836qal.uf2をドラッグアンドドロップする。
-<br><br>
+![](img/img00007.png)
 
-⑤Check if it is recognized by connecting to remap. Edit the keymap accordingly.
+You will be asked for the application version, but if you choose the latest version, I think it's great. Then click Update. Then, when you get a connection request, do the same as before.
 <br>
-⑤remapに繋いで認識するかどうか確認する。合わせてキーマップの編集をする。
+application versionを尋ねられますが、最新版を選べば、大乗と思います。そして、Updateをクリックしてください。その後、接続要求が出たら、先ほどと同じようにしてください。
+<br>
+![](img/img00008.png)
+We recommend setting Debounce to 3. Chattering occurred in the author's environment. After 3 it's stable.
+<br>
+Debounceを３にしておくことを勧めます。作者の環境では、チャタリングが発生しました。３にしてからは安定しています。
+<br>
+![](img/img00009.png)
+
+Click Update and you will be prompted to connect, just do the same as before.
+<br>
+Updateをクリックすると、接続要求が出ますので、前と同じようにしてください。
+<br>
+![](img/img00010.png)
+congratulations. The first stage is finished.
+<br>
+おめでとうございます。第一段階が終了しました。
+<br><br>
+Click on QMK Confiurator for Ble Micro Pro.
+<br>
+次にQMK Confiurator for Ble Micro Proの方をクリックしてください。
+<br>
+
 
 ### Build 2(case)
 
